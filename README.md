@@ -1,16 +1,16 @@
-#COMMAND PATTERN
+# COMMAND PATTERN
 
-##Prerequisites
+## Prerequisites
 
-*dynamic linking, virtual and pure virtual functions, pointers
+* dynamic linking, virtual and pure virtual functions, pointers
 
-##Source
+## Source
 
-*Game programming Patterns by Robert Nystrom (buy the book!)
+* Game programming Patterns by Robert Nystrom (buy the book!)
 
 ## Usage
 
-1) define the new command
+Define the new command
 
 ```c++
 class Heal : public Command{
@@ -21,13 +21,13 @@ class Heal : public Command{
 };
 ```
 
-2) link it to your key
+Link it to your key
 
 ```c++
 btn_A(new Fire());
 ```
 
-3) execute et voilà!
+Execute et voilà!
 
 ```c++
 btn->execute();
