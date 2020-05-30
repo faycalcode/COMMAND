@@ -24,7 +24,7 @@ class Heal : public Command{
 Link it to your key
 
 ```c++
-btn_A(new Fire());
+btn_A(new Heal());
 ```
 
 Execute et voilà!
