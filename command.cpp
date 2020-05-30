@@ -5,9 +5,6 @@
 #define BUTTON_C true
 #define BUTTON_D true
 
-class Player{};
-class Monster{};
-
 class Command{
     public:
     Command() = default;
